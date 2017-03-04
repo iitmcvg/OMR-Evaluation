@@ -51,7 +51,7 @@ for j in range (10-z,9):
 shapex=np.sort(shapex)
 shapey=np.sort(shapey)
 
-
+#can be done better
 
 if i==4 :
     pts1 = np.float32([[shapex[6]+h,shapey[7]+w],[shapex[8]+h,shapey[6]+w],[shapex[7]+h,shapey[9]+w],[shapex[9]+h,shapey[8]+w]])
